@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/buglabs/node-xml2json.svg?branch=master)](https://travis-ci.org/buglabs/node-xml2json)
 
-_`Note: This package is an updated version of [xml2json](https://github.com/buglabs/node-xml2json/). This package is open for contribution, issues and bug fix`_
+_Note: This package is an updated version of [xml2json](https://github.com/buglabs/node-xml2json/). This package is open for contribution, issues and bug fix_
 
 It does not parse the following elements:
 
