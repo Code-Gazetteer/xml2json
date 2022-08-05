@@ -1,0 +1,24 @@
+{
+  "name": "xml2json",
+  "version": "0.11.3",
+  "description": "Converts xml to json and vice-versa, using node-expat.",
+  "author": "Code Gazetteer",
+  "repository": "git://github.com/Code-Gazetteer/xml2json.git",
+  "license": "MIT",
+  "main": "index",
+  "scripts": {
+    "test": "lab -a code -v -t 93 test/test.js"
+  },
+  "dependencies": {
+    "@hapi/hoek": "^10.0.1",
+    "joi": "^17.6.0",
+    "node-expat": "^2.4.0"
+  },
+  "bin": {
+    "xml2json": "bin/xml2json"
+  },
+  "devDependencies": {
+    "@hapi/code": "^9.0.1",
+    "@hapi/lab": "^25.0.1"
+  }
+}
