@@ -1,6 +1,6 @@
 {
   "name": "@code-gazetteer/xml2json",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Converts xml to json and vice-versa, using node-expat.",
   "author": "Code Gazetteer",
   "repository": "git://github.com/Code-Gazetteer/xml2json.git",

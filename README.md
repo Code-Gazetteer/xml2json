@@ -18,13 +18,13 @@ refer to its [documentation](https://github.com/astro/node-expat/blob/master/REA
 ## Installation
 
 ```
-$ npm install xml2json
+$ npm install @code-gazetteer/xml2json
 ```
 
 ## Usage
 
 ```javascript
-var parser = require('xml2json');
+var parser = require('@code-gazetteer/xml2json');
 
 var xml = '<foo attr="value">bar</foo>';
 console.log('input -> %s', xml);
@@ -100,13 +100,13 @@ var options = {
 -   `sanitize: false` is the default option to behave like previous versions
 -   **ignoreNull:** Ignores all null values
 
-(\*) xml2json tranforms CDATA content to JSON, but it doesn't generate a reversible structure.
+(\*) @code-gazetteer/xml2json transforms CDATA content to JSON, but it doesn't generate a reversible structure.
 
 ## License
 
 (The MIT License)
 
-Copyright (c) 2022 xml2json AUTHORS
+Copyright (c) 2022 @code-gazetteer/xml2json AUTHORS
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to
